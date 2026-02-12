@@ -1,0 +1,25 @@
+/* --- Estilos para la Portada (Index) --- */
+
+.container-index {
+    text-align: center;
+    margin-top: 100px; /* Baja el contenido para que no quede pegado arriba */
+}
+
+.boton-entrar {
+    display: inline-block;
+    background-color: #007bff; /* Azul bonito */
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none; /* Quita el subrayado del enlace */
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 50px; /* Bordes muy redondos */
+    transition: background-color 0.3s; /* Animación suave al pasar el ratón */
+    margin-top: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+.boton-entrar:hover {
+    background-color: #0056b3; /* Azul más oscuro al pasar el ratón */
+    transform: scale(1.05); /* Se hace un pelín más grande */
+}
